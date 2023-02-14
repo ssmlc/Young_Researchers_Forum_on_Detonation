@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../style.css">
+	<script type="text/javascript" src="./data.js"></script>
+  </head>
+<body style="text-align: justify; text-justify: inter-word; overflow:hidden">
+<div style="text-align:center; border-radius:15px;">
+<div style="text-align:center">
+  <table class="center" style="margin-left: auto; margin-right: auto;">
+  <tr>
+	<th>Date &emsp;</th>
+	<th>Time &emsp;</th>
+	<th> </th>
+	<th>Time zone</th>
+  </tr>
+  <tr style="text-align:left">
+	<td>February 10th (Friday), 2023 &emsp;</td>
+	<td><script type="text/javascript">document.write(next_talk_time_UTC_hour);document.write(":");document.write(next_talk_time_UTC_minute)</script></td>
+	<td> </td>
+	<td>UTC</td>
+  </tr>
+  <tr style="text-align:left">
+	<td> </td>
+	<td><script type="text/javascript">document.write(next_talk_time_UTC_hour + 1 + ":" +next_talk_time_UTC_minute);</script> </td>
+	<td> </td>
+	<td>CET (UTC+1)</td>
+  </tr>
+  <tr style="text-align:left">
+	<td> </td>
+	<td><script type="text/javascript">document.write(next_talk_time_UTC_hour - 5 + ":" +next_talk_time_UTC_minute);</script></td>
+	<td> </td>
+	<td>EST (UTC-5)</td>
+  </tr>
+  <tr style="text-align:left">
+	<td> </td>
+	<td><script type="text/javascript">document.write(next_talk_time_UTC_hour - 6 + ":" +next_talk_time_UTC_minute);</script></td>
+	<td> </td>
+	<td>CST (UTC-6)</td>
+  </tr>
+  <tr style="text-align:left">
+	<td> </td>
+	<td><script type="text/javascript">document.write(next_talk_time_UTC_hour - 8 + ":" +next_talk_time_UTC_minute);</script></td>
+	<td> </td>
+	<td>PST (UTC-8)</td>
+  </tr>
+  <tr style="text-align:left">
+	<td> </td>
+	<td><script type="text/javascript">document.write(next_talk_time_UTC_hour + 8 + ":" +next_talk_time_UTC_minute);</script></td>
+	<td> </td>
+	<td>Beijing (UTC+8)</td>
+  </tr>
+<!--<tr style="text-align:left">
+	<td>Month Date (day), Year </td>
+	<td>7:00 pm</td>
+	<td> </td>
+	<td>Beijing (GMT+8)</td>
+  </tr> -->
+</table>
+</body></html>

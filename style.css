@@ -5,13 +5,13 @@ body {
 }
 
 .navbar {
-  background-color: #FFBF00;
-  border-radius: 2px;
+  background-color: #2a2d7c;
+  border-radius: 0px 0px 15px 0px;
   max-width: 800px;
 }
 
 .navbar a {
-  color: #000000;
+  color: #ffffff;
   display: inline-block;
   font-size: 15px;
   padding: 10px;
@@ -19,6 +19,5 @@ body {
 }
 
 .navbar a:hover {
-  color: #ffffff;
+  color: #FFBF00;
 }
-
