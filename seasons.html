@@ -10,6 +10,11 @@
     [onclick] {
         cursor: pointer;
     }
+	h2 {
+	  display: flex;
+	  justify-content: space-between;
+	  border-top: 1px solid #000;
+	}
   </style>
   <script>
     function toggleView(id) {
@@ -26,84 +31,50 @@
       <a href="seasons.html">Talks</a>
       <a href="contact.html">Contact</a>
     </div>
-    <h2>Season 1</h2>
-      <p> The first season was held from September to December 2020. It was organized and cohosted by Xiaocheng Mi and S. She-Ming Lau-Chapdelaine with technical help from Chian Yan.
-      <p> The talks are available below, via <a href="https://youtube.com/playlist?list=PLv-8Ya9WFf1GdiUBhQO-cChqKN4_yInGl">YouTube</a>, and <a href="https://space.bilibili.com/701828838">Bilibili</a>.
+
+   <h2 onclick="toggleView('S3')">Season 3 <span style="font-size: 1rem;"> (click here to expand)</span></h2>
+      <p> The third season is currently running from January to April 2023. It is organized and cohosted by Patrick Meagher, Rachel Hytovick, Xiaocheng Mi, and S. She-Ming Lau-Chapdelaine, with technical help from Chian Yan.
 		<ol>
-		<li>Q. Xiao, "S1E1: Dynamics of Gaseous Detonations with Lateral Strain Rate," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Sep. 03, 2020, [Online]. Available: <a href="https://youtu.be/1zD0tVoUb10">https://youtu.be/1zD0tVoUb10</a>.
-		<li>M. Peswani, "S1E2: Performance of a Generic 4-Step Global Reaction Mechanism with Equilibrium Effects for DDT Investigations," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Oct. 05, 2020, [Online]. Available: <a href="https://youtu.be/1ibdRxr6TX0">https://youtu.be/1ibdRxr6TX0</a>.
-		<li>X. Shi, "S1E3: Does Cellular Structure of Detonation Determine its Propagation Limit?," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Oct. 19, 2020, [Online]. Available: <a href="https://youtu.be/KnJodqO2F6E">https://youtu.be/KnJodqO2F6E</a>.
-		<li>J. Koch, "S1E4: A Dynamical Systems Perspective on Rotating Detonation Waves," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Nov. 02, 2020, [Online]. Available: <a href="https://youtu.be/bb-6luwaMQw">https://youtu.be/bb-6luwaMQw</a>.
-		<li>C. Huete, "S1E5: Hydrodynamics of planar detonations in non-homogeneous media," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Nov. 20, 2020, [Online]. Available: <a href="https://youtu.be/lDSfXWCTNk8">https://youtu.be/lDSfXWCTNk8</a>.
-		<li>X. Mi, "S1E6: Detonation propagation under the influence of spatially inhomogeneous energy release," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Nov. 30, 2020, [Online]. Available: <a href="https://youtu.be/c0hYiEdRhWU">https://youtu.be/c0hYiEdRhWU</a>.
-		<li>H. Yang, "S1E7: Dynamics of cellular flame deformation and subsequent DDT mechanism after the head-on," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Dec. 14, 2020, [Online]. Available: <a href="https://youtu.be/3va1F28eRbk">https://youtu.be/3va1F28eRbk</a>.
+		<li>Y. Zhu, "S3E1: Studies on wave propagation and propulsive performance of rotating detonations under different outlet configurations," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 3, Jan. 17, 2023, [Online]. Available: <a href="https://youtu.be/orbrGFmzRm4">https://youtu.be/orbrGFmzRm4</a>.
+		<li>M. Salvadori, "S3E2: The effects of liquid fuel combustion on the propagation of a detonation wave," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 3, Feb. 2, 2023, [Online].
+		<li>S. Guhathakurta, "S3E3: Multiphase detonations and dust explosions," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 3, Feb. 10, 2023, [Online]. Available: <a href="https://youtu.be/-h0TJ3ERKHg">https://youtu.be/-h0TJ3ERKHg</a>.
+
 		</ol>
-    <h3 onclick="toggleView('S1')">Episodes (click to expand)</h3>
-    <div id="S1" style="display:none">
+    <div id="S3" style="display:none">
       <ol>
       <hr>
-      <li><b>Title:</b>  Dynamics of Gaseous Detonations with Lateral Strain Rate
-        <br><b>Speaker:</b> Qiang Xiao
-        <br><b>Position:</b> Assistant Professor, Nanjing University of Science and Technology, Jiangsu, China
-        <br><b>Date:</b> September 3, 2020
-        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1zD0tVoUb10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <li><b>Title:</b> Studies on wave propagation and propulsive performance of rotating detonations under different outlet configurations
+        <br><b>Speaker:</b> Yiyuan Zhu
+        <br><b>Position:</b> Lecturer, Zhejiang University of Science & Technology, China
+        <br><b>Date:</b> January 17, 2023
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/orbrGFmzRm4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br><b>Abstract:</b>
-        <br>&emsp; The present talk examined the role of instability on the predictability of detonation dynamics by investigating detonations in mixtures with varying levels of cellular instability, from the less unstable hydrogen-oxygen-argon system to the highly unstable methane-oxygen. Steady detonation waves, propagated in channels with exponentially enlarging cross-sections, were obtained at the macro-scale. For all the mixtures tested, the characteristic D−K relationships, relating the detonation mean propagation speed with lateral flow divergence, were obtained directly from experiments and as well from the generalized ZND model with lateral strain rates using detailed chemical kinetics. The comparisons first demonstrated the excellent agreement between experiments and the ZND model predictions for the weakly unstable hydrogen-oxygen-argon detonations, while significant departures for the highly unstable hydrocarbon-oxygen detonations. The results further showed that the degree of departure between experiments and the theoretical predictions increases significantly with the detonation instability level. Such a strong link between the departure level and the detonation instability can be clarified by the role of significant unreacted gas pockets in the ignition and propagation mechanism of unstable detonations. Finally, a novel quasi-2D approach modelling the lateral boundary layer losses using Mirels’ theory was proposed for evaluating the effect of boundary layer losses on 2D detonation cellular structures.
+        <br>&emsp; Improving the propulsive performance of the rotating detonation engine ( is one of the most important issues for developing its practical application. The exhaust nozzle is a necessary part of propulsion devices as well as the RDE Therefore, the aerospike nozzles, with different geometry structures, are developed to investigate their effects on not only the thrust performance but the upstream behaviours inside the combustion chamber. The characteristics of the wave propagation mode with various equivalence ratios and supply mass flow rates are discussed in detail when different outlet configurations are adopted. Stable operating ranges of rotating detonations are clarified. Moreover, the propulsive performance has been analyzed under different outlet configurations.
       <hr>
-      <li><b>Title:</b> Performance of a Generic 4-Step Global Reaction Mechanism with Equilibrium Effects for DDT Investigations
-        <br><b>Speaker:</b> Mohnish Peswani
-        <br><b>Position:</b> Ph.D. candidate, Case Western Reserve University, Cleveland, OH, USA
-        <br><b>Date:</b> October 5, 2020
-        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1ibdRxr6TX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><b>Abstract:</b> 
-        <br>&emsp; A reduced 4-species, 4-step Global Reaction Mechanism(GRM), derived from detailed chemistry using a thermochemical approach, is investigated for four different reactive mixtures. The trade-off between preciseness of Elementary Reaction Mechanisms (ERMs), and        low computational overhead requirements of GRMs remains a dilemma in the application of chemical kinetic models to detonation problems. Reducing a reaction mechanism often compromises the chemical details, and reduces the scope of applicability of the derived model. This is largely due to the mixture chemistry having a vital influence on several key aspects of the detonation phenomenon like initiation, quenching, and the dynamics of the wave front and hydrodynamic structure during propagation. For detonation problems in particular, there has been an insufficient replication of the complex reality of the phenomenon through numerical simulations which has lead to a constant demand for more accurate and affordable models. Four separate stoichiometric combustion mixtures are investigated, each involving acetylene, methane, propane, or ethylene mixed with oxygen. Each mixture exhibits very different global activation energies, heat release, and ignition characteristics.
-      <hr>
-      <li><b>Title:</b> Does Cellular Structure of Detonation Determine its Propagation Limit?
-        <br><b>Speaker:</b> Xian Shi
-        <br><b>Position:</b> Postdoctoral Scholar, Stanford University, Stanford, CA, USA 
-        <br><b>Date:</b> October 19, 2020
-        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KnJodqO2F6E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <li><b>Title:</b> The effects of liquid fuel combustion on the propagation of a detonation wave
+        <br><b>Speaker:</b> Marc Salvadori
+        <br><b>Position:</b> HyperComp Inc.; Ph.D. from Georgia Institute of Technology
+        <br><b>Date:</b> February 2, 2023
+        <br>The video will become available once the embargo is ended.
         <br><b>Abstract:</b>
-        <br>&emsp; The detonation limit behavior is studied with ozone sensitization in small, round tubes. Adding trace amount of ozone leads to size reduction of detonation cells and extends the occurrence of spinning detonations to lower initial pressures. In contrast, however, ozone addition produces a negligible effect on velocity deficit far from the detonation limit while providing a measurable extension of the limit. The change in velocity deficit caused by ozone does not correlate with the reduction in cell size, suggesting that the velocity deficit behavior is NOT solely a function of the detonation structure. By analyzing the velocity deficit data in the d/λ (the ratio of tube diameter to cell width) domain, two regimes of detonation limits are identified: a loss-governed regime where velocity deficiency results from various losses (mass, momentum, and heat) and is insensitive to cellular patterns and sizes, and a geometry-limited regime determined by the geometric accommodation of detonation structures. Ozone addition extends the detonation limit by moving the reactive mixtures away from its geometric detonation limit and promotes detonation propagation in miniaturized geometries.
+        <br>&emsp; Recent research towards using liquid fuel in rotating detonation engines (RDE) has been assessed using Eulerian-Lagrangian (EL) reactive simulations of a representative three-dimensional (3D) configuration in order to understand the interactions of a detonation wave with liquid fuel droplets. To model the non-homogeneity of combustion, discrete injectors for gaseous hydrogen fuel are used, and the liquid spray is injected along with the air from a continuous plenum. In this study the hydrogen injection rate is reduced to a condition at which the detonation wave is unable to sustain. The results show that the injection of the kerosene spray helps sustain the detonation wave leading the system transitions from a pure gaseous detonation to a hydrogen-driven kerosene-sustained detonation. At a global equivalence ratio of 0.5, the combustion processes show unstable burning with localized extinction and re-ignition followed by system failure. The results demonstrate that the existence of the detonation aids in the evaporation of the injected droplets behind it, allowing the vaporized mixture to properly mix before the next detonation cycle such that continuous (cyclic and stable) propagation can be achieved. The simulations enabled us to understand a) the mechanism of the detonation establishment in presence of spray, b) the detonation structure during self-sustained propagation, and c) the effects of fuel vaporization and dispersion.
       <hr>
-      <li><b>Title:</b> A Dynamical Systems Perspective on Rotating Detonation Waves
-        <br><b>Speaker:</b> James Koch
-        <br><b>Position:</b> Postdoctoral Researcher, the Oden Institute for Computational Engineering and Sciences, the University of Texas at Austin, USA 
-        <br><b>Date:</b> November 2, 2020
-        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bb-6luwaMQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <li><b>Title:</b> Multiphase detonations and dust explosions
+        <br><b>Speaker:</b> Swagnik Guhathakurta
+        <br><b>Position:</b> Postdoctoral fellow, Eindhoven University of Technology, The Netherlands
+        <br><b>Date:</b> February 10, 2023
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-h0TJ3ERKHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br><b>Abstract:</b>
-        <br>&emsp; The formation of a number of co and counter rotating coherent combustion wave fronts is the hallmark feature of the Rotating Detonation Engine (RDE). The engineering implications of wave topology are not well understood nor quantified, especially with respect to parametric changes in combustor geometry, propellant chemistry, and injection and mixing schemes. In an attempt to shed light on the interplay of these physics, the RDE is examined through the lens of multi scale nonlinear dynamical systems. Specifically, we seek to leverage the applied mathematical field of nonlinear waves to investigate properties of these combustion fronts, comparing and contrasting their behavior to those admitted by canonical wave equations. These concepts are used to construct and analyze surrogate models of the RDE from both first principles (the forward modeling problem) and from data (the inverse problem).
+        <br>&emsp; Metal and organic dusts have been known to be highly energetic and flammable materials. Such reactive particles mixed with oxidizers can be quite disastrous when trapped in enclosed spaces such as coal mines and sugar refineries and have led to several dust explosions around the world. On the other hand, metals powders, such as Aluminum, have been utilized for decades as an additive in solid rocket boosters and explosives to increase the energy output. The understanding of granular multiphase flows is essential for studying these kinds of problems.<br>Radiative heat transfer is usually neglected or oversimplified when performing numerical simulations of dust explosions due to their computational cost and complexity. Several multidimensional simulations were carried out using detailed radiation models with various particle sizes to analyze the effect of radiation on coal-dust explosions. Depending on the scenario, radiation was observed to have a significant effect on the explosion propagation and severity.<br>The ignition delay time for aluminum particles that are explosively dispersed by TNT charges was also studied. Depending on the particle size, the packing density and the layer thickness, the Al particles show either prompt or delayed ignition. Parametric studies were carried out to predict the ideal design for maximum energy output.
       <hr>
-      <li><b>Title:</b> Hydrodynamics of planar detonations in non-homogeneous media
-        <br><b>Speaker:</b> César Huete
-        <br><b>Position:</b> Associate Professor, Universidad Carlos III de Madrid, Spain 
-        <br><b>Date:</b> November 20, 2020
-        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lDSfXWCTNk8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><b>Abstract:</b>
-        <br>&emsp; We present the asymptotic linear theory describing the propagation of a planar detonation front through a heterogeneous mixture of reactive gases consisting of random fluctuations in the fuel mass fraction. The study begins with the derivation of the transfer functions that are later used in a Fourier analysis of the detonation interaction with two- and three-dimensional isotropic heterogeneous fields to provide integral formulae for the turbulent kinetic energy, sonic energy and averaged vorticity and entropy production rates. Second-order corrections for the averaged Rankine-Hugoniot conditions are provided, along with analytical expressions for the deviation of the detonation propagation velocity with respect to that of the equivalent homogeneous mixture. Upstream inhomogeneities are found to speed up the detonation front, with a velocity amplification factor that depends on the properties of the fuel-air equivalence ratio, which translates into variations of the density and the heat release with the fuel mass fraction.
-      <hr>
-      <li><b>Title:</b> Detonation propagation under the influence of spatially inhomogeneous energy release
-        <br><b>Speaker:</b> XiaoCheng Mi
-        <br><b>Position:</b> Post-doctoral researcher, McGill University, Canada 
-        <br><b>Date:</b> November 30, 2020
-        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c0hYiEdRhWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><b>Abstract:</b>
-        <br>&emsp; The propagation of gaseous detonation waves in a medium with spatially inhomogeneous energy release are put to a rigorous examination via various systems of numerical simulations. The inhomogeneity is introduced via concentrating reactive material into regions which are separated by inert gaps while maintaining the same average energy density. With an adiabatic system, the averaged propagation speeds resulting from inhomogeneous media are compared to the ideal Chapman-Jouguet (CJ) speed for an equivalent amount of energy release. Velocities in excess of the CJ speed are found as the reactive regions are made increasingly discrete. These super-CJ waves can be understood as weak detonations due to the non-equilibrium state at the effective sonic surface. A detonation analogue model based on the Burgers’ equation, however, fails to capture this super-CJ propagation. A heuristic model is constructed using the Taylor-Sedov solution for point-source blast waves to qualitatively explain the wave propagation behavior in the limit of highly discretized sources. The influence of spatially discrete sources on the propagation limit of detonation waves confined by an inert, compressible layer of gas is also examined. The simulation results show that, for a sufficiently high activation energy, the spatial inhomogeneities assist a detonation wave to propagate beyond the limit that is encountered in a homogeneous medium. Implications of this enhancing effect will be discussed.
-      <hr>
-      <li><b>Title:</b> Dynamics of cellular flame deformation and subsequent DDT mechanism after the head-on interactions with shocks
-        <br><b>Speaker:</b> Hongxia Yang
-        <br><b>Position:</b> PhD candidate, Northeastern University, China
-        <br><b>Date:</b> December 14, 2020
-        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3va1F28eRbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><b>Abstract:</b>
-        <br>&emsp; The problem of shock flame interactions from both burnt gas to unburnt gas and unburnt gas to burnt gas is studied in two Hele-Shaw type apparatus. We show experimentally, numerically and theoretically, following the passage of the incident shock, the compressed flame goes through four stages. At times significantly less than the characteristic flame burning time, the flame front deforms as an inert interface dictated by the non-linear Ricthmyer-Meshkov (R-M) instability or for a decaying cylindrical shock wave by the combined effect of the R-M instability and the stabilizing Rayleigh-Taylor instability. At times comparable to the laminar flame time, dilatation due to chemical energy release amplifies the growth rate of inter interface. The deformation of the flame due to one shock lasts approximately one flame time before abruptly terminated by the transverse burnout of the resulting flame funnels, followed by a longer front re-adjustment to a new cellular flame. A flame evolution model was proposed to provide the prediction of the evolution of the flame geometry and burning rate for arbitrary shock strength and flame properties in two-dimensions. The re-shock of an initial finger flame in the narrow channel, however, turn out to be an extremely efficient mechanism to rapidly form a detonation wave, in spite of the low sensitivity of the fuel-air mixture at low pressures, weak shock used and absence of turbulence. The DDT mechanism, relies primarily on the straining of the flame shape into an elongated alligator flame maintained by the anchoring mechanism in a bifurcated lambda shock due to boundary layers.
       </ol>
     </div>
 
-
-    <h2 onclick="toggleView('S2')">Season 2</h2>
-    <div id="S2" style="display:block">
-      <p> The second season schedule is listed below. It will be cohosted and organized by Xiaocheng Mi and S. She-Ming Lau-Chapdelaine with technical help from Chian Yan.
+    <h2 onclick="toggleView('S2')">Season 2 <span style="font-size: 1rem;"> (click here to expand)</span></h2>
+<!--    <div id="S2" style="display:block"> -->
+      <p> The second season was held from January to April 2021. It was organized and cohosted by Xiaocheng Mi and S. She-Ming Lau-Chapdelaine with technical help from Chian Yan.
+      
+<!--
       <table style="width:100%">
         <tr style="text-align:left">
           <th>Date</th>
@@ -116,7 +87,7 @@
           <td>Clean Combustion Research Center, KAUST, Saudi Arabia</td>
         </tr>
         <tr>
-          <td>Jan. 24-30</td>
+          <td>Jan. 25</td>
           <td>Josué Melguizo-Gavilanes</td>
           <td>P Prime Institute, Poitier, France</td>
         </tr>
@@ -182,5 +153,224 @@
         </tr>
       </table>
     </div>
+-->
+	<ol>
+		<li>M.B. Luong, "S2E1: Direct Numerical simulations of engine knock," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Jan. 18, 2021, [Online]. Available: <a href="https://youtu.be/ZLzXpKdI1jA">https://youtu.be/ZLzXpKdI1jA</a>.
+		<li>J. Melguizo-Gavilanes, "S2E2: Dynamics of detonation transmission and propagation in a curved chamber: a numerical and experimental analysis," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Jan. 25, 2021, [Online]. Available: <a href="https://youtu.be/zw9-_cac1nE">https://youtu.be/zw9-_cac1nE</a>.
+		<li>Y. Poroshyna, "S2E3: Dynamics of detonation wave propagation analyzed in the shock attached frame," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Feb. 1, 2021, [Online]. Available: <a href="https://youtu.be/doVuHz7aok8">https://youtu.be/doVuHz7aok8</a>.	
+		<li>P.S. Utkin, "S2E4: Numerical study of shock-to-detonation transition in the curvilinear channels," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Feb. 8, 2021, [Online]. Available: <a href="https://youtu.be/B6NnN9fEhTY">https://youtu.be/B6NnN9fEhTY</a>.
+		<li>W. Han, "S2E5: Initiation and propagation of hydrogen–oxygen detonation with ozone sensitization," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Feb. 15, 2021, [Online]. Available: <a href="https://youtu.be/E0Slrjfq0u4">https://youtu.be/E0Slrjfq0u4</a>.		
+		<li>K. Chatelain, "S2E6: Current limitations and possible improvements of the planar laser-induced fluorescence of hydroxyl radical diagnostic in hydrogen detonations," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Feb. 25, 2021, [Online]. Available: <a href="https://youtu.be/1aX8iowu7c0">https://youtu.be/1aX8iowu7c0</a>.		
+		<li>J. Braun, "S2E7: Rotating detonation combustor modeling for efficient engine integration at PETAL," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, March. 4, 2021, [Online].
+		<li>S.S. Dammati, "S2E8: Numerical investigation of the accuracy of particle image velocimetry technique in high-speed flows," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Mar. 12, 2021, [Online]. Available: <a href="https://youtu.be/qy35eL-ot0U">https://youtu.be/qy35eL-ot0U</a>.		
+		<li>Y. Wang, "S2E9: Propagation of gaseous detonation in inhomogeneous mixtures," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Mar. 18, 2021, [Online]. Available: <a href="https://youtu.be/aE-msK5smFo">https://youtu.be/aE-msK5smFo</a>.		
+		<li>O.Dounia, "S2E10: Numerical investigation of detonation re-initiation at the Chapman–Jouguet deflagration regime," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Mar. 26, 2021, [Online]. Available: <a href="https://youtu.be/NeCTYQFxcaU">https://youtu.be/NeCTYQFxcaU</a>.		
+		<li>H.Zhang, "S2E11: Detonation propagation in dilute n-heptane sprays with and without pre-vaporization," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Apr.1, 2021, [Online]. Available: <a href="https://youtu.be/VgBShO49LuY">https://youtu.be/VgBShO49LuY</a>.		
+	    <li>M.Bohon, "S2E12: Progress, challenges, and open questions in Rotating Detonation Combustion," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Apr.9, 2021, [Online]. Available: <a href="https://youtu.be/-YStVhZ6ddM">https://youtu.be/-YStVhZ6ddM</a>.		
+	    <li>H.Watanabe, "S2E13: Mean structure and droplet behavior in gaseous detonation with dilute water spray," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 2, Apr.15, 2021, [Online]. Available: <a href="https://youtu.be/UpsrTb7vivc">https://youtu.be/UpsrTb7vivc</a>.		
+
+	</ol>
+    <div id="S2" style="display:none">
+      <ol>
+      <hr>
+      <li><b>Title:</b>  Direct numerical simulations of engine knock
+        <br><b>Speaker:</b> Minh Bau Luong
+        <br><b>Position:</b> Postdoctoral Fellow, Clean Combustion Research Center, KAUST, Saudi Arabia
+        <br><b>Date:</b> January 18, 2021
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZLzXpKdI1jA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; Downsized and boosted internal combustion engines offer higher thermal efficiencies and low emissions. However, under high-load conditions, these engines suffer from pre-ignition, a higher possibility of knock, even super-knock characterized by high-pressure peaks and oscillations, leading to severe structural damage. Therefore, a reliable prediction of such abnormal ignition phenomena is of critical importance. The objective of this study is, beyond the simplified 1-D isolated ignition kernel configuration typically used in the many previous detonation studies, to explore a number of multi-dimensional direct numerical simulations (DNS) to unravel the super-knock mechanism in the presence of the complex chemistry-turbulence interaction under realistic IC engine conditions. In particular, this study uncovers how turbulence affects the detonation intensity of the bulk mixture by systematically varying the ratio of the most energetic length scale of turbulence and temperature fluctuations, <em>l</em><sub>T</sub>/<em>l</em><sub>e</sub>, and the ratio of ignition delay time to eddy-turnover time, <em>&tau;</em><sub>ig</sub>/<em>&tau;</em><sub>t</sub>. Different statistical metrics extracted from the multi-dimensional data are proposed to characterize the knock intensity, and their correlation with knock intensity is examined.
+        
+        <hr>
+      <li><b>Title:</b>  Dynamics of detonation transmission and propagation in a curved chamber: a numerical and experimental analysis
+        <br><b>Speaker:</b> Josué Melguizo-Gavilanes
+        <br><b>Position:</b> CNRS Research Scientist, l'Institute Pprime, Poitiers, France
+        <br><b>Date:</b> January 25, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zw9-_cac1nE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; The dynamics of detonation transmission from a straight channel into a curved chamber was investigated numerically and experimentally as a function of initial pressure (10 kPa ≤ p<sub>0</sub> ≤ 26 kPa) in an argon diluted stoichiometric H<sub>2</sub>–O<sub>2</sub> mixture. Numerical simulations considered the two-dimensional reactive Euler equations with detailed chemistry; hi-speed schlieren and OH∗ chemiluminescense were used for flow visualization. Results show a rotating Mach detonation along the outer wall of the chamber and the highly transient sequence of events (i.e. detonation diffraction, re-initiation attempts and wave reflections) that precedes its formation. An increase in pressure, from 15 kPa to 26 kPa, expectedly resulted in detonations that are less sensitive to diffraction. The decoupling location of the reaction zone and the leading shock along the inner wall determined where transition from regular reflection to a rather complex wave structure occurred along the outer wall. This complex wave structure includes a  rotating Mach detonation (stem), an incident decoupled shock-reaction zone region, and a transverse detonation that propagates in pre-shocked mixture. For lower pressures, i.e. ≤ 10 kPa, the detonation fails shortly after ignition. However, the interaction of the decoupled leading shock with the curved section of the chamber results in detonation initiation behind the inert Mach stem. Thereafter, the evolution was similar to the 15 kPa case. Simulations and experiments qualitatively and quantitatively agree indicating that the global dynamics in this configuration is mostly driven by the geometry and initial pressure, and not by the cellular structure in highly compressed regions.
+        
+        <hr>
+      <li><b>Title:</b>  Dynamics of detonation wave propagation analyzed in the shock attached frame
+        <br><b>Speaker:</b> Yaroslava Poroshyna
+        <br><b>Position:</b> PhD student, the Moscow Institute of Physics and Technology (MIPT); Junior research assistant, the Institute for the Computer Aided Design, the Russian Academy of Sciences, Russia 
+        <br><b>Date:</b> Feburary 1, 2021
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/doVuHz7aok8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; Theoretical and numerical studies of the stability of Zeldovich-von Neumann-Döring solution go back to the works of Erpenbeck and Fickett and describe a stationary detonation wave and pulsating modes of detonation wave propagation. A large number of subsequent fundamental studies of pulsating detonation wave are associated with the use of a single-stage model of the kinetics of chemical reactions. In our research we exploit the two-stage kinetics model as it was shown to be able to capture the special features of real mixtures compared to one-stage models while preserving the simplicity in contrast with the detailed kinetics mechanisms. Furthermore, the study of the detonation wave propagation is conducted in the reference frame attached to the leading shock. The dynamics of the transition regime of detonation wave propagation with two-scale pulsations is of interest in the current research. The mechanism of a detonation wave propagation in the transition regime includes the mechanism similar to the very high frequency regime around the minima of the LSW pressure curve and similar to the high frequency regime around the maxima. The process is described in detail in terms of wave dynamics in the induction zone and characteristic lines.
+        
+        <hr>
+		
+      <li><b>Title:</b>  Numerical study of shock-to-detonation transition in the curvilinear channels
+        <br><b>Speaker:</b> Pavel S. Utkin
+        <br><b>Position:</b> Associate Professor, the Moscow Institute of Physics and Technology (MIPT); Senior Research Scientist, the Institute for the Computer Aided Design, the Russian Academy of Sciences, Russia 
+        <br><b>Date:</b> Feburary 8, 2021
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B6NnN9fEhTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; Presentation is dedicated to the numerical studies of the mechanisms of gaseous detonation initiation in the curvilinear channels with different geometries. The problem relates to the pulse detonation devices development. Two concepts are considered, namely shock-to-detonation transition during the propagation of a shock wave along the channel with curvilinear walls and detonation initiation due to the reflection of a shock wave from a complex shaped end-wall of the channel. We recall our previous results concerning the first concept and consider in more detail the second one. Several elliptic surfaces of different geometries, including distributed ones, at the end-wall of the channel filled with the quiescent stoichiometric hydrogen-oxygen mixture were considered. We refer to such reflectors with multiple elliptical surfaces as “multi-focusing systems”. Two-dimensional Euler simulations, on a fully unstructured computational grid, were carried out to determine the mechanism of detonation initiation. Simulation results were compared with the experiments performed by Professor A.A. Vasil’ev. The experiments were carried out in a shock tube. Visualization of the process was carried out with a high-speed schlieren system. In the experiments, the ignition delay times and the critical incident shock wave Mach number for detonation initiation were measured. So, the numerical approach was verified using the ignition delay times. Reasonable agreement between the simulations and experiments for the critical Mach number of detonation initiation and for the efficiency of various multi-focusing systems for detonation initiation was achieved. Different regimes of detonation initiation depending on the incident shock wave Mach number were observed. 
+        
+        <hr>
+	  
+	  <li><b>Title:</b>  Initiation and propagation of hydrogen–oxygen detonation with ozone sensitization
+        <br><b>Speaker:</b> Wenhu Han
+        <br><b>Position:</b> Associate Professor, Doctoral supervisor, Beijing Institute of Technology, Beijing, China
+        <br><b>Date:</b> Feburary 15, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E0Slrjfq0u4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; This work studies numerically the spontaneous initiation and sustenance of a detonation wave from a hot spot with a nonuniform initial temperature embedded within an H<sub>2</sub>-O<sub>2</sub> mixture with and without O<sub>3</sub> addition. For the case with either no or just a small amount of O<sub>3</sub> addition, a weak reaction wave is auto-ignited at the hot spot, accelerates and then transitions to a pulsating detonation, which propagates along the temperature gradient and quenches as it runs into the cold fresh mixture. However, with increasing O<sub>3</sub> addition, the possibility of sustenance of a developing detonation within the gradient is significantly enhanced as it enters the cold mixture. The reduced induction time by O3 addition leads to earlier appearance of the spontaneous reaction wave and detonation formation in the cold mixture, demonstrating that quenching of the detonation is largely related to the instability property of the mixture because the shortened induction time reduces substantially the instability. In addition, effects of O<sub>3</sub> addition on pulsating and cellular instabilities of detonation are examined. It is found that O<sub>3</sub> addition changes pulsating mode in 1D detonation, and cellular regularity and cell size in 2D detonation.  
+        
+        <hr>
+
+      <li><b>Title:</b>  Current limitations and possible improvements of the planar laser-induced fluorescence of hydroxyl radical diagnostic in hydrogen detonations
+        <br><b>Speaker:</b> Karl Chatelain
+        <br><b>Position:</b> Postdoctoral fellow, King Abdullah University of Science and Technology (KAUST), Clean Combustion Research Center (CCRC), Saudi Arabia
+        <br><b>Date:</b> Feburary 25, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1aX8iowu7c0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; Hydrogen-fueled detonations have a growing interest due to their thermodynamically more efficient combustion cycles and the use of carbon-free fuels. Compared to classical flame diagnostics (i.e., deflagration regime), a limited number of laser diagnostics were employed to perform two-dimensional (2D) quantitative measurements in detonations. This lack of quantitative information currently prevents the validation of multidimensional numerical simulations and the development of the next-generation, low-carbon and highly efficient, power generator (i.e., detonation engines). In this study, we investigated the effect of the excitation line on the planar laser-induced fluorescence of hydroxyl radical (OH-PLIF) imaging in H2-detonations. We validated our in-house laser-induced fluorescence (LIF) model, called KAT-LIF, with experimental results obtained in our optical detonation duct (ODD). We numerically investigated the effect of the initial conditions, N2- or Ar-dilution, and excitation lines on the OH-LIF measurements (emission spectrum, fluorescence intensity, and OH concentration). Also, we experimentally evidenced better excitation strategies to obtain qualitative information far from the front. Even though these new excitation strategies are mainly valuable for qualitative validations of numerical simulations, they may also open a path toward OH-PLIF quantitative measurements in detonation.
+        
+        <hr>
+		
+      <li><b>Title:</b>  Rotating detonation combustor modeling for efficient engine integration at PETAL
+        <br><b>Speaker:</b> James Braun 
+        <br><b>Position:</b> Research assistant professor, Purdue University
+        <br><b>Date:</b> March 4, 2021
+        <br>The video will become available once the embargo is ended.
+        <br><b>Abstract:</b>
+        <br>&emsp; Detonation propagation in n-heptane sprays with and without pre-vaporization is studied by using Eulerian–Lagrangian method. The effects of initial droplet diameter, liquid equivalence ratio and droplet pre-vaporization degree on detonation propagation are investigated. The general features and detailed structures of two-phase n-heptane detonations are well captured in the present simulations. The results show that detonation propagation speed is significantly affected by droplet diameter and liquid fuel equivalent ratio. The numerical soot foils are used to characterize the influence of droplet diameter and liquid equivalence ratio on the two-phase detonation propagation. Regular detonation cellular structures are observed near stoichiometric conditions. When the liquid droplet equivalence ratio is increased, the detonations become more unstable, and the average cell width increases. It is also found that the initial droplet diameter has little effects on the volume averaged heat release rate and high fluctuations of the heat release rate are observed with increased liquid droplet equivalence ratio. In addition, detonation extinction, re-ignition and local explosions are observed in the two-phase mixtures. The results also show that detonation wave can propagate in liquid n-heptane/air mixture without pre-vaporization when the initial droplet diameter is small. With increased droplet size, the detonation wave is first quenched and then re-ignited. 
+
+        <hr>
+		
+	  <li><b>Title:</b>  Numerical Investigation of the accuracy of particle image velocimetry technique in high-speed flows
+        <br><b>Speaker:</b> Sai Sandeep Dammati
+        <br><b>Position:</b> Ph.D. Student, Texas A&M University, USA
+        <br><b>Date:</b> March 12, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qy35eL-ot0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; Recent years have seen a resurgence of interest in detonative combustion for the propulsion and energy conversion applications. This primarily concerns rotating detonation combustors both for rocket and turbine engines. Development of stable and efficient detonation-based systems requires in-depth understanding of the detonation dynamics and, in particular, the resulting flow-field structure. This has led to the growing adoption of the Particle Image Velocimetry (PIV) for the flow characterization in detonation experiments. Though PIV is a canonical particle-seeding technique, its ability to reconstruct the velocity field can be limited in extreme flow regimes such as found in detonations, which are characterized by the presence of strong shocks and fast, highly compressible turbulence. This talk will present the analysis of the PIV technique in two high-speed flows, namely gas-phase detonations and non-reacting high-speed turbulence. In particular, first we numerically assess the accuracy of the PIV technique by carrying out synthetic PIV reconstruction of the flow field in a two-dimensional, planar detonation propagating under atmospheric conditions. Next, we carry out similar synthetic PIV reconstruction of the flow field in a high-speed homogeneous isotropic turbulent flow in a 3D canonical turbulence-in-a-box setup using Direct Numerical Simulations (DNS). In both the studies, the following questions are addressed: a) How do seed particles affect the underlying flow field? b) How well do seed particles sample the flow field of interest? c) How accurately do seed particles follow the flow pathlines? d) What is the accuracy of the PIV reconstruction of the velocity field in comparison with the actual velocity field? Finally, we discuss the implications of using PIV as an experimental technique to study practical propulsion devices such as rotating detonation engines.
+        
+        <hr>
+		
+	  <li><b>Title:</b>  Propagation of gaseous detonation in inhomogeneous mixtures
+        <br><b>Speaker:</b> Yuan Wang
+        <br><b>Position:</b> Postdoctoral researcher, Institute of Applied Physics and Computational Mathematics (IAPCM), China
+        <br><b>Date:</b> March 18, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aE-msK5smFo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; In rotating detonation engines and explosion accidents, detonation may propagate in an inhomogeneous mixture. This talk focuses on detonation propagation in a stoichiometric H2/O2/N2 mixture. The inhomogeneous mixtures with multiple inert layers/periodical fuel concentration gradient normal/parallel to the detonation propagation direction are considered. One- and two-dimensional simulations considering detailed chemistry have been conducted. The effects of inhomogeneous mixture on detonation reinitiation/failure, detonation propagation speed, detonation cellular structure and cell size will be discussed. Specifically, it is found that successful detonation reinitiation occurs only at relatively small values of the inert layer thickness and spacing for multiple inert layers and amplitude and wavelength for fuel concentration gradient. The detailed process of detonation reinitiation across inhomogeneous mixture is analyzed. The interaction between the transverse shock waves is shown to induce local autoignition/explosion and eventually over-driven detonation development. It is found that the detonation cellular structure and cell size are greatly affected by the inhomogeneous mixture distributions. For the first time, large cellular structure with size linearly proportional to the spacing and wavelength is observed for detonation propagation across inhomogeneous mixtures. Besides, a double cellular structure is observed for relatively large spacing and wavelength. The formation of double cellular structure is interpreted.
+
+        <hr>
+		
+	  <li><b>Title:</b>  Numerical investigation of detonation re-initiation at the Chapman–Jouguet deflagration regime 
+        <br><b>Speaker:</b> Omar Dounia
+        <br><b>Position:</b> Postdoctoral researcher, CERFACS, France 
+        <br><b>Date:</b> March 26, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NeCTYQFxcaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; In the context of vapour cloud explosions, the flame acceleration process can lead to conditions promoting deflagration to detonation transition (DDT), potentially leading to increased damages in accidental scenarios. The exact mechanisms behind DDT are not always captured by the experimental diagnostics and numerical simulations are often used to investigate the exact conditions initiating DDT. The focus of the presentation is on the influence of some physical parameters (initial pressure and blockage ratio) and key parameters specific to numerical modeling (nature of the chemical scheme, initialisation). Attention is also paid to the stochastic nature of DDT, which can lead to significant variability of DDT location in numerical simulations. This issue challenges the safety CFD community to adopt the following standards: Grid convergence and Ensemble numerical realizations, despite the considerable increase in computational cost associated to these approaches.
+
+        <hr>
+      
+	  <li><b>Title:</b>  Detonation propagation in dilute n-heptane sprays with and without pre-vaporization
+        <br><b>Speaker:</b> Huangwei Zhang
+        <br><b>Position:</b> Assistant professor, National University of Singapore, Singapore
+        <br><b>Date:</b> April 1, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VgBShO49LuY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; Detonation propagation in n-heptane sprays with and without pre-vaporization is studied by using Eulerian–Lagrangian method. The effects of initial droplet diameter, liquid equivalence ratio and droplet pre-vaporization degree on detonation propagation are investigated. The general features and detailed structures of two-phase n-heptane detonations are well captured in the present simulations. The results show that detonation propagation speed is significantly affected by droplet diameter and liquid fuel equivalent ratio. The numerical soot foils are used to characterize the influence of droplet diameter and liquid equivalence ratio on the two-phase detonation propagation. Regular detonation cellular structures are observed near stoichiometric conditions. When the liquid droplet equivalence ratio is increased, the detonations become more unstable, and the average cell width increases. It is also found that the initial droplet diameter has little effects on the volume averaged heat release rate and high fluctuations of the heat release rate are observed with increased liquid droplet equivalence ratio. In addition, detonation extinction, re-ignition and local explosions are observed in the two-phase mixtures. The results also show that detonation wave can propagate in liquid n-heptane/air mixture without pre-vaporization when the initial droplet diameter is small. With increased droplet size, the detonation wave is first quenched and then re-ignited. 
+
+	  <li><b>Title:</b>  Progress, challenges, and open questions in Rotating Detonation Combustion
+        <br><b>Speaker:</b> Myles Bohon
+        <br><b>Position:</b> Guest professor, Technische Universität Berlin, Berlin
+        <br><b>Date:</b> April 9, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-YStVhZ6ddM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; In the past few years, the field of pressure gain combustion (PGC) has been trying to realize the potential performance and efficiency gains available in the shift from constant pressure combustion to a PGC cycle. In this process, several combustor technologies that utilize a non-constant pressure heat release process to increase total pressure through the combustor have been developed, with the rotating detonation combustor (RDC) becoming one of the most promising. This combustor functions by initiating a detonation wave that propagates around the perimeter of a continually refilled annular combustor. In this way the detonation wave constantly propagates into fresh reactants after which reactant refill begins anew, while the combustion products are exhausted to provide thrust or drive turbomachinery. This simple description belies a great deal of complexity in the operation of the device, such as: the importance of reactant injection and reactant mixing, the coupling of the detonation with the chamber acoustics, minimizing total pressure loss, maximizing the work extracted through the unsteady outflow, and so on. Our group has been studying these effects in the past four years, and this presentation will highlight some of our results as we work to develop this technology.
+
+      <li><b>Title:</b>  Mean structure and droplet behavior in gaseous detonation with dilute water spray
+        <br><b>Speaker:</b> Hiroaki Watanabe 
+        <br><b>Position:</b> Assistant Professor, Nagoya University, Nagoya
+        <br><b>Date:</b> April 15, 2021
+		<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UpsrTb7vivc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; Detonation phenomena have attracted considerable attention for propulsion applications and safety hazards avoidance. In an RDE, the droplet size of nonvolatile fuels is known to be a key-parameter that affects injection design. Water spray can be used in the mitigation process of detonation. Therefore, the optimal spray characteristics for the mitigation by water spray need to be clarified. The aim of this study is to deepen the understanding of the interplay between the liquid dispersed phase and detonation. The gaseous detonation with dilute water spray in a two-dimensional (2D) straight channel is investigated by 2-D numerical simulations. The numerical simulation is based on Eulerian-Lagrangian method and 2-D compressible reactive Navier-Stokes equations, with the source terms accounting for the detailed chemistry and the interaction with the liquid phase. The mean structure of gaseous detonation with dilute water spray is analyzed by the statistical Favre averaged one-dimensional profiles for both gas and water spray. The mean structure of gaseous detonation with dilute water spray shares similar structure with that without water spray although the characteristic lengths for detonation are more or less increased due to the lower propagation velocity by the interaction with dilute water spray in the present conditions. The comparison of the characteristic lengths for gas phase and water spray reveals that the gas phase and water spray are intimately intertwined. In the present simulation conditions, the breakup occurs downstream of the induction zone and the water vapor from the evaporation does not affect the reactivity of the gaseous mixture. From the instantaneous flow field analysis, the droplet breakup occurs mainly near the detonation front. Also, the polydispersity after the breakup process comes from local phenomena behind the leading shock, such as forward jets coming from triple point collisions, transverse waves and a combination of both. The total breakup time was longer than that estimated from the post-shock conditions and the present finding is in line with the previous experimental results on spray detonation.
+
+        <hr>
+      </ol>
+    </div>
+
+    <h2 onclick="toggleView('S1')">Season 1 <span style="font-size: 1rem;"> (click here to expand)</span></h2>
+      <p> The first season was held from September to December 2020. It was organized and cohosted by Xiaocheng Mi and S. She-Ming Lau-Chapdelaine with technical help from Chian Yan.
+      <p> The talks are available below, via <a href="https://youtube.com/playlist?list=PLv-8Ya9WFf1GdiUBhQO-cChqKN4_yInGl">YouTube</a>, and <a href="https://space.bilibili.com/701828838">Bilibili</a>.
+		<ol>
+		<li>Q. Xiao, "S1E1: Dynamics of Gaseous Detonations with Lateral Strain Rate," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Sep. 03, 2020, [Online]. Available: <a href="https://youtu.be/1zD0tVoUb10">https://youtu.be/1zD0tVoUb10</a>.
+		<li>M. Peswani, "S1E2: Performance of a Generic 4-Step Global Reaction Mechanism with Equilibrium Effects for DDT Investigations," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Oct. 05, 2020, [Online]. Available: <a href="https://youtu.be/1ibdRxr6TX0">https://youtu.be/1ibdRxr6TX0</a>.
+		<li>X. Shi, "S1E3: Does Cellular Structure of Detonation Determine its Propagation Limit?," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Oct. 19, 2020, [Online]. Available: <a href="https://youtu.be/KnJodqO2F6E">https://youtu.be/KnJodqO2F6E</a>.
+		<li>J. Koch, "S1E4: A Dynamical Systems Perspective on Rotating Detonation Waves," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Nov. 02, 2020, [Online]. Available: <a href="https://youtu.be/bb-6luwaMQw">https://youtu.be/bb-6luwaMQw</a>.
+		<li>C. Huete, "S1E5: Hydrodynamics of planar detonations in non-homogeneous media," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Nov. 20, 2020, [Online]. Available: <a href="https://youtu.be/lDSfXWCTNk8">https://youtu.be/lDSfXWCTNk8</a>.
+		<li>X. Mi, "S1E6: Detonation propagation under the influence of spatially inhomogeneous energy release," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Nov. 30, 2020, [Online]. Available: <a href="https://youtu.be/c0hYiEdRhWU">https://youtu.be/c0hYiEdRhWU</a>.
+		<li>H. Yang, "S1E7: Dynamics of cellular flame deformation and subsequent DDT mechanism after the head-on," presented at the The Young Researchers' Forum on Detonation: From Fundamentals to Applications, Season 1, Dec. 14, 2020, [Online]. Available: <a href="https://youtu.be/3va1F28eRbk">https://youtu.be/3va1F28eRbk</a>.
+		</ol>
+    <div id="S1" style="display:none">
+      <ol>
+      <hr>
+      <li><b>Title:</b>  Dynamics of Gaseous Detonations with Lateral Strain Rate
+        <br><b>Speaker:</b> Qiang Xiao
+        <br><b>Position:</b> Assistant Professor, Nanjing University of Science and Technology, Jiangsu, China
+        <br><b>Date:</b> September 3, 2020
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1zD0tVoUb10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; The present talk examined the role of instability on the predictability of detonation dynamics by investigating detonations in mixtures with varying levels of cellular instability, from the less unstable hydrogen-oxygen-argon system to the highly unstable methane-oxygen. Steady detonation waves, propagated in channels with exponentially enlarging cross-sections, were obtained at the macro-scale. For all the mixtures tested, the characteristic D−K relationships, relating the detonation mean propagation speed with lateral flow divergence, were obtained directly from experiments and as well from the generalized ZND model with lateral strain rates using detailed chemical kinetics. The comparisons first demonstrated the excellent agreement between experiments and the ZND model predictions for the weakly unstable hydrogen-oxygen-argon detonations, while significant departures for the highly unstable hydrocarbon-oxygen detonations. The results further showed that the degree of departure between experiments and the theoretical predictions increases significantly with the detonation instability level. Such a strong link between the departure level and the detonation instability can be clarified by the role of significant unreacted gas pockets in the ignition and propagation mechanism of unstable detonations. Finally, a novel quasi-2D approach modelling the lateral boundary layer losses using Mirels’ theory was proposed for evaluating the effect of boundary layer losses on 2D detonation cellular structures.
+      <hr>
+      <li><b>Title:</b> Performance of a Generic 4-Step Global Reaction Mechanism with Equilibrium Effects for DDT Investigations
+        <br><b>Speaker:</b> Mohnish Peswani
+        <br><b>Position:</b> Ph.D. candidate, Case Western Reserve University, Cleveland, OH, USA
+        <br><b>Date:</b> October 5, 2020
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1ibdRxr6TX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b> 
+        <br>&emsp; A reduced 4-species, 4-step Global Reaction Mechanism(GRM), derived from detailed chemistry using a thermochemical approach, is investigated for four different reactive mixtures. The trade-off between preciseness of Elementary Reaction Mechanisms (ERMs), and        low computational overhead requirements of GRMs remains a dilemma in the application of chemical kinetic models to detonation problems. Reducing a reaction mechanism often compromises the chemical details, and reduces the scope of applicability of the derived model. This is largely due to the mixture chemistry having a vital influence on several key aspects of the detonation phenomenon like initiation, quenching, and the dynamics of the wave front and hydrodynamic structure during propagation. For detonation problems in particular, there has been an insufficient replication of the complex reality of the phenomenon through numerical simulations which has lead to a constant demand for more accurate and affordable models. Four separate stoichiometric combustion mixtures are investigated, each involving acetylene, methane, propane, or ethylene mixed with oxygen. Each mixture exhibits very different global activation energies, heat release, and ignition characteristics.
+      <hr>
+      <li><b>Title:</b> Does Cellular Structure of Detonation Determine its Propagation Limit?
+        <br><b>Speaker:</b> Xian Shi
+        <br><b>Position:</b> Postdoctoral Scholar, Stanford University, Stanford, CA, USA 
+        <br><b>Date:</b> October 19, 2020
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KnJodqO2F6E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; The detonation limit behavior is studied with ozone sensitization in small, round tubes. Adding trace amount of ozone leads to size reduction of detonation cells and extends the occurrence of spinning detonations to lower initial pressures. In contrast, however, ozone addition produces a negligible effect on velocity deficit far from the detonation limit while providing a measurable extension of the limit. The change in velocity deficit caused by ozone does not correlate with the reduction in cell size, suggesting that the velocity deficit behavior is NOT solely a function of the detonation structure. By analyzing the velocity deficit data in the d/λ (the ratio of tube diameter to cell width) domain, two regimes of detonation limits are identified: a loss-governed regime where velocity deficiency results from various losses (mass, momentum, and heat) and is insensitive to cellular patterns and sizes, and a geometry-limited regime determined by the geometric accommodation of detonation structures. Ozone addition extends the detonation limit by moving the reactive mixtures away from its geometric detonation limit and promotes detonation propagation in miniaturized geometries.
+      <hr>
+      <li><b>Title:</b> A Dynamical Systems Perspective on Rotating Detonation Waves
+        <br><b>Speaker:</b> James Koch
+        <br><b>Position:</b> Postdoctoral Researcher, the Oden Institute for Computational Engineering and Sciences, the University of Texas at Austin, USA 
+        <br><b>Date:</b> November 2, 2020
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bb-6luwaMQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; The formation of a number of co and counter rotating coherent combustion wave fronts is the hallmark feature of the Rotating Detonation Engine (RDE). The engineering implications of wave topology are not well understood nor quantified, especially with respect to parametric changes in combustor geometry, propellant chemistry, and injection and mixing schemes. In an attempt to shed light on the interplay of these physics, the RDE is examined through the lens of multi scale nonlinear dynamical systems. Specifically, we seek to leverage the applied mathematical field of nonlinear waves to investigate properties of these combustion fronts, comparing and contrasting their behavior to those admitted by canonical wave equations. These concepts are used to construct and analyze surrogate models of the RDE from both first principles (the forward modeling problem) and from data (the inverse problem).
+      <hr>
+      <li><b>Title:</b> Hydrodynamics of planar detonations in non-homogeneous media
+        <br><b>Speaker:</b> César Huete
+        <br><b>Position:</b> Associate Professor, Universidad Carlos III de Madrid, Spain 
+        <br><b>Date:</b> November 20, 2020
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lDSfXWCTNk8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; We present the asymptotic linear theory describing the propagation of a planar detonation front through a heterogeneous mixture of reactive gases consisting of random fluctuations in the fuel mass fraction. The study begins with the derivation of the transfer functions that are later used in a Fourier analysis of the detonation interaction with two- and three-dimensional isotropic heterogeneous fields to provide integral formulae for the turbulent kinetic energy, sonic energy and averaged vorticity and entropy production rates. Second-order corrections for the averaged Rankine-Hugoniot conditions are provided, along with analytical expressions for the deviation of the detonation propagation velocity with respect to that of the equivalent homogeneous mixture. Upstream inhomogeneities are found to speed up the detonation front, with a velocity amplification factor that depends on the properties of the fuel-air equivalence ratio, which translates into variations of the density and the heat release with the fuel mass fraction.
+      <hr>
+      <li><b>Title:</b> Detonation propagation under the influence of spatially inhomogeneous energy release
+        <br><b>Speaker:</b> XiaoCheng Mi
+        <br><b>Position:</b> Post-doctoral researcher, McGill University, Canada 
+        <br><b>Date:</b> November 30, 2020
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c0hYiEdRhWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; The propagation of gaseous detonation waves in a medium with spatially inhomogeneous energy release are put to a rigorous examination via various systems of numerical simulations. The inhomogeneity is introduced via concentrating reactive material into regions which are separated by inert gaps while maintaining the same average energy density. With an adiabatic system, the averaged propagation speeds resulting from inhomogeneous media are compared to the ideal Chapman-Jouguet (CJ) speed for an equivalent amount of energy release. Velocities in excess of the CJ speed are found as the reactive regions are made increasingly discrete. These super-CJ waves can be understood as weak detonations due to the non-equilibrium state at the effective sonic surface. A detonation analogue model based on the Burgers’ equation, however, fails to capture this super-CJ propagation. A heuristic model is constructed using the Taylor-Sedov solution for point-source blast waves to qualitatively explain the wave propagation behavior in the limit of highly discretized sources. The influence of spatially discrete sources on the propagation limit of detonation waves confined by an inert, compressible layer of gas is also examined. The simulation results show that, for a sufficiently high activation energy, the spatial inhomogeneities assist a detonation wave to propagate beyond the limit that is encountered in a homogeneous medium. Implications of this enhancing effect will be discussed.
+      <hr>
+      <li><b>Title:</b> Dynamics of cellular flame deformation and subsequent DDT mechanism after the head-on interactions with shocks
+        <br><b>Speaker:</b> Hongxia Yang
+        <br><b>Position:</b> PhD candidate, Northeastern University, China
+        <br><b>Date:</b> December 14, 2020
+        <br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3va1F28eRbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><b>Abstract:</b>
+        <br>&emsp; The problem of shock flame interactions from both burnt gas to unburnt gas and unburnt gas to burnt gas is studied in two Hele-Shaw type apparatus. We show experimentally, numerically and theoretically, following the passage of the incident shock, the compressed flame goes through four stages. At times significantly less than the characteristic flame burning time, the flame front deforms as an inert interface dictated by the non-linear Ricthmyer-Meshkov (R-M) instability or for a decaying cylindrical shock wave by the combined effect of the R-M instability and the stabilizing Rayleigh-Taylor instability. At times comparable to the laminar flame time, dilatation due to chemical energy release amplifies the growth rate of inter interface. The deformation of the flame due to one shock lasts approximately one flame time before abruptly terminated by the transverse burnout of the resulting flame funnels, followed by a longer front re-adjustment to a new cellular flame. A flame evolution model was proposed to provide the prediction of the evolution of the flame geometry and burning rate for arbitrary shock strength and flame properties in two-dimensions. The re-shock of an initial finger flame in the narrow channel, however, turn out to be an extremely efficient mechanism to rapidly form a detonation wave, in spite of the low sensitivity of the fuel-air mixture at low pressures, weak shock used and absence of turbulence. The DDT mechanism, relies primarily on the straining of the flame shape into an elongated alligator flame maintained by the anchoring mechanism in a bifurcated lambda shock due to boundary layers.
+      </ol>
+    </div>
+
   </body>
 </html>
